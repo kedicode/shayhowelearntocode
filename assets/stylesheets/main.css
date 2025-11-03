@@ -240,6 +240,7 @@ h5 {
 	color: var(--h5-color);
 	font-size: 14px;
 	font-weight: 400;
+	text-transform: uppercase;
 }
 
 strong {
@@ -258,15 +259,20 @@ em {
 */
 
 a:hover {
-	color: var(--h5-color)
+	color: var(--h5-color);
 }
 
 a {
-	color: var(--heading-color-h1-h4)
+	color: var(--heading-color-h1-h4);
+	text-decoration: none;
 }
 
 .teaser a:hover h3 {
-	color: var(--h5-color)
+	color: var(--h5-color);
+}
+
+p a {
+	border-bottom: 1px solid #dfe2e5;
 }
 
 
@@ -297,6 +303,7 @@ a {
 .hero {
 	line-height: 44px;
 	padding: 22px 80px 66px 80px;
+	text-align: center;
 }
 
 .hero h2 {
@@ -340,11 +347,14 @@ a {
 
 .tagline {
 	margin: 66px 0 22px 0;
+	text-align: right;
 }
 
 .primary-nav {
 	font-size: 14px;
 	font-weight: 400;
+	letter-spacing: .5px;
+	text-transform: uppercase;
 }
 
 /* 
@@ -368,6 +378,10 @@ a {
 
 /* 
 	===============================================
-	Custom styles
+	Navigation
 	===============================================
 */
+
+.nav {
+	text-align: right;
+}
