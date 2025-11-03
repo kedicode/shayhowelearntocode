@@ -200,7 +200,7 @@ Typography
 
 body {
 	color: #888;
-	font: 300 16px/22px "Open Sans", "Hevetica Neue", Helvetica, Arial, sans-serif
+	font: 300 16px/22px "Lato", "Open Sans", "Hevetica Neue", Helvetica, Arial, sans-serif
 }
 
 h1,
@@ -312,6 +312,7 @@ p a {
 
 .hero p {
 	font-size: 24px;
+	font-weight: 100;
 }
 
 /* 
@@ -341,8 +342,10 @@ p a {
 	padding: 40px 0 22px 0;
 	float: left;
 	font-size: 48px;
+	letter-spacing: .5px;
 	line-height: 44px;
 	padding: 40px 0 22px 0;
+	text-transform: uppercase;
 }
 
 .tagline {
